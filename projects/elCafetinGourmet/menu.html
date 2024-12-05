@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>El Cafetín Gourmet</title>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Proyecto Final, COMP 2025, Universidad Interamericana de Puerto Rico, Recinto de Aguadilla"
+    />
+    <meta name="keywords" content="Coffee, Coffee Shop, Puerto Rico, Aguadilla" />
+    <meta name="author" content="Gabriel A Nieves Ruiz, Y00589157" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      integrity="sha256-9kPW/n5nn53j4WMRYAxe9c1rCY96Oogo/MKSVdKzPmI="
+      crossorigin="anonymous"
+    />
+
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+    <link rel="manifest" href="images/site.webmanifest" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#menu">
+    <!--Header-->
+    <header class="container-fluid border border-0">
+      <div class="row">
+        <div class="col-2 align-content-center">
+          <a class="text-decoration-none text-body-emphasis fs-3" href="/projects/index.html"
+            ><i class="bi bi-box-arrow-left"></i>
+            <div class="d-none d-md-inline">Exit</div></a
+          >
+        </div>
+        <div class="col-8">
+          <a href="index.html"><img src="images/logo.png" class="d-block mx-auto" height="90px" alt="Logo" /></a>
+        </div>
+      </div>
+    </header>
+
+    <!--Main Navbar-->
+    <nav class="navbar navbar-expand-md fs-5 sticky-top">
+      <button class="navbar-toggler border border-0 me-4" data-bs-toggle="collapse" data-bs-target="#mNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="mNav">
+        <ul class="navbar-nav column-gap-4 px-4 text-center">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="menu.html" class="nav-link active" aria-current="page">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="fotos.html" class="nav-link">Fotos</a>
+          </li>
+          <li class="nav-item">
+            <a href="nosotros.html" class="nav-link">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a href="contactanos.html" class="nav-link">Contáctanos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="container-fluid">
+      <!--Secondary Navbar-->
+      <nav id="menu" class="navbar navbar-expand my-5 fs-6 d-flex justify-content-center">
+        <div>
+          <ul class="navbar-nav column-gap-4 mx-md-5 px-md-2">
+            <li class="nav-item">
+              <a href="#cafe" class="menu-link active" aria-current="page">Café</a>
+            </li>
+            <li class="nav-item">
+              <a href="#postres" class="menu-link">Postres</a>
+            </li>
+            <li class="nav-item">
+              <a href="#almuerzos" class="menu-link">Almuerzos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#jugos" class="menu-link">Jugos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--Category-->
+      <h1 id="cafe" class="d-flex justify-content-center border-1 border-bottom pb-2 my-5">Café</h1>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card border">
+            <img class="card-img-top img-fluid" src="images/coffeeCupTransparent.png" alt="Café" />
+            <div class="card-body rounded-bottom">
+              <h2 class="card-title">Latte</h2>
+              <p class="card-text">
+                Disfruta de nuestro delicioso Café Latte, una combinación perfecta de Espresso y leche al vapor cremosa, coronado
+                con una suave capa de espuma. Un equilibrio ideal de sabores para empezar tu día o disfrutar en cualquier momento.
+              </p>
+              <p class="container-fluid border-top border-dark line card-text">Tamaño: 10oz</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border">
+            <img class="card-img-top img-fluid" src="images/coffeeCupTransparent.png" alt="Café" />
+            <div class="card-body rounded-bottom">
+              <h2 class="card-title">Cappuccino</h2>
+              <p class="card-text">
+                Saborea la exquisitez de nuestro Cappuccino, elaborado con Espresso, leche al vapor sedosa y una generosa capa de
+                espuma espumosa. Perfecto para quienes aprecian una bebida con un sabor profundo y una textura rica.
+              </p>
+              <p class="container-fluid border-top border-dark line card-text">Tamaño: 10oz</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border">
+            <img class="card-img-top img-fluid" src="images/coffeeCupTransparent.png" alt="Café" />
+            <div class="card-body rounded-bottom">
+              <h2 class="card-title">Espresso</h2>
+              <p class="card-text">
+                Experimenta la pureza del sabor del café con nuestro Espresso, una taza pequeña pero potente de café concentrado,
+                preparada con los mejores granos molidos finamente. Ideal para los amantes del café que buscan una dosis rápida y
+                rica de energía y aroma.
+              </p>
+              <p class="container-fluid border-top border-dark line card-text">Tamaño: 10oz</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border">
+            <img class="card-img-top img-fluid" src="images/coffeeCupTransparent.png" alt="Café" />
+            <div class="card-body rounded-bottom">
+              <h2 class="card-title">Americano</h2>
+              <p class="card-text">
+                Disfruta de nuestro Americano, una mezcla sencilla pero sofisticada de espresso y agua caliente. Este café suave y
+                ligero resalta el sabor puro del grano, perfecto para aquellos que prefieren una taza de café más diluida pero
+                llena de sabor y aroma.
+              </p>
+              <p class="container-fluid border-top border-dark line card-text">Tamaño: 10oz</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Category-->
+      <h1 id="postres" class="d-flex justify-content-center border-1 border-bottom pb-2 my-5">Postres</h1>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card border">
+            <img class="card-img-top img-fluid" src="images/muffin.jpg" alt="Muffin" />
+            <div class="card-body rounded-bottom">
+              <h2 class="card-title">Muffin</h2>
+              <p class="card-text">
+                Deléitate con nuestros esponjosos Muffins, horneados diariamente con ingredientes frescos. Disponibles en una
+                variedad de sabores, desde arándanos y chocolate hasta zanahoria y nuez. Perfectos para acompañar tu café o como
+                un delicioso antojo a cualquier hora del día.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border">
+            <img class="card-img-top img-fluid" src="images/conrbread.jpg" alt="Pan de Maiz" />
+            <div class="card-body rounded-bottom">
+              <h2 class="card-title">Pan de Maíz</h2>
+              <p class="card-text">
+                Saborea la tradición con nuestro Pan de Maíz, hecho con harina de maíz y una pizca de dulzura. Este pan dorado y
+                esponjoso es perfecto como acompañamiento o para disfrutar solo, brindándote un toque de hogar en cada bocado.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border">
+            <img class="card-img-top img-fluid" src="images/pastelillos.jpg" alt="Pastelillos de Guayava" />
+            <div class="card-body rounded-bottom">
+              <h2 class="card-title">Pastelillos de Guallava</h2>
+              <p class="card-text">
+                Disfruta de nuestros deliciosos Pastelillos de Guayaba, elaborados con una masa suave y hojaldrada rellena de
+                dulce y jugosa guayaba. Un bocado tropical perfecto para acompañar tu café o como un tentempié irresistible en
+                cualquier momento del día
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border">
+            <img class="card-img-top img-fluid" src="images/flan.JPG" alt="Flan de Queso" />
+            <div class="card-body rounded-bottom">
+              <h2 class="card-title">Flan de Queso</h2>
+              <p class="card-text">
+                Déjate seducir por nuestro cremoso Flan de Queso, una delicia suave y sedosa con un toque de queso y un caramelo
+                dorado. Este postre es el equilibrio perfecto entre dulce y cremoso, ideal para poner el broche de oro a cualquier
+                comida.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Category-->
+      <h1 id="almuerzos" class="d-flex justify-content-center border-1 border-bottom pb-2 my-5">Almuerzos</h1>
+      <div class="row d-flex justify-content-center g-4">
+        <div class="col col-md-8">
+          <div class="card border">
+            <img class="card-img-top img-fluid" src="images/almuerzos.jpg" alt="Burger" />
+            <div class="card-body rounded-bottom">
+              <h2 class="card-title">CheeseBurger con Papas Fritas</h2>
+              <p class="card-text">
+                Disfruta de nuestra jugosa Cheeseburger, preparada con carne de primera calidad, queso derretido, y todos los
+                acompañamientos clásicos en un pan fresco y suave. Servida con una generosa porción de papas fritas doradas y
+                crujientes. ¡La combinación perfecta para satisfacer tu apetito en cualquier momento!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-8">
+          <div class="card border">
+            <img class="card-img-top img-fluid" src="images/quesadilla.jpg" alt="Quesadilla de Pollo" />
+            <div class="card-body rounded-bottom">
+              <h2 class="card-title">Quesadilla de Pollo</h2>
+              <p class="card-text">
+                Prueba nuestra deliciosa Quesadilla de Pollo, rellena con pollo tierno y jugoso, queso fundido y un toque de
+                especias, todo envuelto en una tortilla dorada y crujiente. Perfecta para disfrutar sola o acompañada de
+                guacamole, crema agria y salsa. ¡Una opción sabrosa y reconfortante!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Category-->
+      <h1 id="jugos" class="d-flex justify-content-center border-1 border-bottom pb-2 my-5">Jugos Naturales</h1>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card border">
+            <img class="card-img-top img-fluid" src="images/orangeFruits.jpg" alt="Naranjas" />
+            <div class="card-body rounded-bottom">
+              <h2 class="card-title">Jugo de Naranja</h2>
+              <p class="card-text">
+                Disfruta de un vaso refrescante de Jugo de Naranja, exprimido con las mejores naranjas frescas para ofrecerte un
+                sabor natural y vibrante. Perfecto para comenzar el día con energía o para disfrutar en cualquier momento, lleno
+                de vitamina C y delicioso sabor cítrico.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border">
+            <img class="card-img-top img-fluid" src="images/watermelon.jpg" alt="Melón" />
+            <div class="card-body rounded-bottom">
+              <h2 class="card-title">Jugo de Melón</h2>
+              <p class="card-text">
+                Refresca tu día con nuestro Jugo de Melón, hecho con melones frescos y jugosos para brindarte un sabor dulce y
+                natural. Este jugo es perfecto para hidratarte y disfrutar de una bebida ligera y deliciosa en cualquier momento
+                del día. ¡Ideal para una pausa refrescante!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border">
+            <img class="card-img-top img-fluid" src="images/passionfruit.jpg" alt="Parcha" />
+            <div class="card-body rounded-bottom">
+              <h2 class="card-title">Jugo de Parcha</h2>
+              <p class="card-text">
+                Experimenta el vibrante sabor tropical con nuestro Jugo de Parcha, elaborado con maracuyás frescas para ofrecerte
+                una bebida refrescante y exótica. Con su sabor dulce y ligeramente ácido, este jugo es perfecto para disfrutar en
+                cualquier momento y transportar tus sentidos a un paraíso tropical.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border">
+            <img class="card-img-top img-fluid" src="images/kiwi.jpg" alt="Kiwi" />
+            <div class="card-body rounded-bottom">
+              <h2 class="card-title">Jugo de Kiwi</h2>
+              <p class="card-text">
+                Disfruta de nuestro Jugo de Kiwi, preparado con kiwis frescos para ofrecerte una bebida exótica y revitalizante.
+                Con su sabor ligeramente ácido y dulce, este jugo es perfecto para refrescarte y llenarte de energía a cualquier
+                hora del día. ¡Una explosión de frescura en cada sorbo!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--Scroll to Top Button-->
+    <div onclick="topFunction()" id="myBtn" class="p-0 border-0">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+        fill="currentColor"
+        class="rounded border border-2 border-dark bi bi-arrow-up-short"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5"
+        />
+      </svg>
+    </div>
+    <script src="scripts/scrollToTop.js"></script>
+
+    <!--Footer-->
+    <footer class="container-fluid">
+      <div class="d-flex flex-wrap justify-content-center align-items-center justify-content-md-between py-3 m-4 border-top">
+        <p class="col-12 col-md-4 d-flex justify-content-center justify-content-md-between mb-0 text-body-secondary">
+          &copy; El Cafetín Gourmet
+        </p>
+        <ul class="nav col-lg-8 justify-content-center justify-content-md-end">
+          <li class="nav-item">
+            <a href="https://www.inter.edu/" class="nav-link px-2 text-body-secondary" target="_blank">Inter</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.aguadilla.inter.edu/" class="nav-link px-2 text-body-secondary" target="_blank"
+              >Inter Aguadilla</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="https://www.web.inter.edu/" class="nav-link px-2 text-body-secondary" target="_blank">Inter Web</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.elnuevodia.com/" class="nav-link px-2 text-body-secondary" target="_blank">El Nuevo Día</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://cai.inter.edu/" class="nav-link px-2 text-body-secondary" target="_blank">CAI</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

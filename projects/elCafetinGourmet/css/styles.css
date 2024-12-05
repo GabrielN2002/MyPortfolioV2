@@ -1,0 +1,70 @@
+header {
+  background-color: #b66f42;
+}
+
+.navbar {
+  background-color: #b66f42d4;
+  font-family: "Lucida Console", monospace;
+}
+
+#menu {
+  background-color: white;
+  font-family: "Lucida Console", monospace;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: #00000092;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.menu-link {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #b66f42;
+  text-underline-offset: 5px;
+  padding-bottom: 3px;
+}
+
+.menu-link:hover {
+  color: #00000092;
+}
+
+.menu-link.active:hover {
+  color: #00000092;
+}
+
+.card-body {
+  background-color: #b66f42;
+}
+
+.card-text {
+  font-family: "Courier New", monospace;
+}
+
+h1 {
+  font-family: "Courier New", monospace;
+}
+
+h2 {
+  font-family: "Lucida Console", monospace;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  cursor: pointer; /* Add a mouse pointer on hover */
+}
+
+#formButton {
+  background-color: #b66f42;
+}
